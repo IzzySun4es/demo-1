@@ -1,0 +1,44 @@
+:root{
+    --green-color: #D4FDDD;
+    --button-color: #7FE87C;
+}
+*{
+    font-family: 'Sans' sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 940px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 36px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    max-width: 880px;
+}
+.main-content{
+    display: flex;
+}
+.main-content p{
+    font-size: 24px;
+    width: 380px;
+}
+.main-content img{
+    width: 480px;
+}
+.step p{
+    font-size: 180px;
+}
