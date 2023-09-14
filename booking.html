@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header> <!--Шапка и навигация-->
+            <ul class="nav">
+                <li><a href="#home"></a>Alone at home</li>
+                <li><a href="#stock"></a>Акции</li>
+                <li><a href="#search"></a>Поиск</li>
+                <li><a href="#reservation"></a>Управление бронированием</li>
+            </ul>
+        </header>
+        <div class="booking"><!--Страница бронирования-->
+            <h3>Страница бронирования</h3>
+            <form class="order"><!--Данные о заказе-->
+                <h2>Данные о заказе</h2>
+                <input type="text" placeholder="Регион"/>
+                <input type="text" placeholder="Адрес кемпинга"/>
+                <input type="date" placeholder="Дата заселения" name="calendar"/>
+                <input type="date" placeholder="Дата выселения" name="calendar"/>
+                <input type="number" min="1000" step="100"/>
+            </form>
+            <form class="guest"><!--Данные о постояльцах-->
+                <h2>Данные о постояльцах</h2>
+                <input type="text" placeholder="Ваша фамилия"/>
+                <input type="text" placeholder="Ваше имя"/>
+                <input type="text" placeholder="Ваше отчество"/>
+                <input type="date" value="2008-07-22" min="1923-01-01" max="2023-12-31" />
+                <input type="text" placeholder="Номер документа"/>
+            </form>
+        </div>
+        <footer><!--подвал сайта-->
+            <ul>
+                <li>Телефон 8(800)100-10-10</li>
+                <li>Home</li>
+                <li>Login</li>
+                <li>Sign up</li>
+                <li>Contact</li>
+                <li>News</li>
+                <li>Return</li>
+                <li>Feedback</li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
