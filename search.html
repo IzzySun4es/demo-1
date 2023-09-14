@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header> <!--Шапка и навигация-->
+            <ul class="nav">
+                <li><a href="#home"></a>Alone at home</li>
+                <li><a href="#stock"></a>Акции</li>
+                <li><a href="#search"></a>Поиск</li>
+                <li><a href="#reservation"></a>Управление бронированием</li>
+            </ul>
+        </header>
+        <div class="search-for-campsites"> <!--Поиск кемпингов-->
+            <form class="search">
+                <input type="text" placeholder="Регион">
+                <input type="text" placeholder="Наименование и адрес кемпинга">
+                <input type="date" placeholder="Дата заселения" name="calendar">
+                <input type="date" placeholder="Дата выселения" name="calendar">
+                <input type="number" placeholder="Количество свободных домов-бочек-" step="1" min="1" max="5" value="1">
+            </form>
+            <form>
+                <input type="button" value="Поиск">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
