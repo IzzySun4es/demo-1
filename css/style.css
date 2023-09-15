@@ -15,22 +15,34 @@
 }
 h1{
     font-size: 48px;
+    text-align: center;
+    margin: 80px 0;
 }
 h2{
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 70px;
 }
 h3{
     font-size: 36px;
+    text-align: center;
+    margin: 200px 0 58px 0;
+}
+h4{
+    font-size: 13px;
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    max-width: 880px;
 }
 .main-content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .main-content p{
     font-size: 24px;
@@ -38,7 +50,5 @@ h3{
 }
 .main-content img{
     width: 480px;
-}
-.step p{
-    font-size: 180px;
+    border-radius: 10px;
 }
