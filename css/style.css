@@ -37,6 +37,10 @@ h4{
     margin-top: -70px;
     padding: 5px;
 }
+h5{
+    font-size: 20px;
+    margin-top: 80px;
+}
 /*Навигация*/
 .nav{
     display: flex;
@@ -180,4 +184,50 @@ footer ul{
     margin-top: 77px;
     border-radius: 10px;
     background-color: var(--green-color);
+}
+/*Страница выбора дома-бочки в кемпинге*/
+.main-seat p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.seat-content{
+    display: flex;
+    justify-content: space-between
+}
+.seat-content-1{
+    width: 244px;
+}
+.seat-content li{
+    list-style: none;
+    margin-bottom: 19px;
+}
+.img-scheme{
+    display: flex;
+    justify-content: space-between;
+}
+.img-scheme img{
+    width: 281px;
+}
+.img-scheme img:hover{
+    border: 2px #7FE87C solid;
+}
+/*Страница бронирования*/
+.add-people input{
+    padding: 5px;
+}
+.add-people p{
+    margin-top: 76px;
+}
+.result input{
+    padding: 10px;
+    margin-top: 50px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.result{
+    display: flex;
+    justify-content: space-between;
 }
