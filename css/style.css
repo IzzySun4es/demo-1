@@ -99,6 +99,10 @@ h4{
 .review-content p{
     font-size: 20px;
 }
+/*Поиск кемпингов*/
+.search-form-1{
+    text-align: center;
+}
 input{
     font-size: 16px;
     padding: 15px;
@@ -111,9 +115,7 @@ input[type="button"]{
 input[type="number"]{
     padding: 17px 100px 17px 10px;
 }
-input[type="text"]{
-    padding: 17px 110px;
-}
+
 .search-form-2{
     text-align: center;
     margin-top: 50px;
@@ -153,4 +155,29 @@ footer ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+/*Страница с результатами поиска кемпингов*/
+.caping{
+    margin-top: 56px;
+}
+.camping-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.camping-content-1 img{
+    width: 380px;
+    border-radius: 10px;
+}
+.camping-conten-2 {
+    width: 516px;
+}
+.camping-conten-2 ul{
+    list-style: none;
+}
+.vivrat{
+    padding: 9px 116px;
+    margin-top: 77px;
+    border-radius: 10px;
+    background-color: var(--green-color);
 }
