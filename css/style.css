@@ -123,9 +123,12 @@ input{
     padding: 15px;
     border-radius: 10px;
 }
-input[type="button"]{
+input[type="button"], button{
     padding: 16px 100px;
     background-color: var(--button-color);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
 }
 input[type="number"]{
     padding: 17px 100px 17px 10px;
