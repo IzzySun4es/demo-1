@@ -161,6 +161,10 @@ hr{
 details{
     margin-top: 20px;
 }
+summary{
+    border: 1px solid #7FE87C;
+    padding: 10px;
+}
 .subscription{
     text-align: center;
 }
@@ -245,4 +249,6 @@ footer ul{
 .result{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
 }
