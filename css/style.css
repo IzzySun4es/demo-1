@@ -47,15 +47,24 @@ h5{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 .nav li {
     font-size: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    color: #7FE87C;
 }
 .main-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 .main-content p{
     font-size: 24px;
@@ -63,6 +72,7 @@ h5{
 }
 .main-content img{
     width: 480px;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -103,6 +113,7 @@ h5{
 .review-content p{
     font-size: 20px;
 }
+
 /*Поиск кемпингов*/
 .search-form-1{
     text-align: center;
@@ -129,7 +140,9 @@ input[type="number"]{
 }
 .stock-content{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }
 .stock-content-1{
     width: 298px;
@@ -139,6 +152,7 @@ input[type="number"]{
 }
 .stock-content-1 img{
     border-radius: 10px;
+    height: 163px;
 }
 hr{
     margin-top: 30px;
@@ -159,6 +173,7 @@ footer ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 /*Страница с результатами поиска кемпингов*/
 .caping{
