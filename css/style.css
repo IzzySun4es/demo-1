@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
 }
-.container{
+body{
     width: 940px;
     max-width: 100%;
     margin: 0 auto;
@@ -103,19 +103,19 @@ h5{
     flex-wrap: wrap;
     justify-content: center;
 }
-.review-content{
+.review__content{
     width: 300px;
     border: 1px black solid;
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
 }
-.review-content p{
+.review__comment p{
     font-size: 20px;
 }
 
 /*Поиск кемпингов*/
-.search-form-1{
+.search-form__content-input{
     text-align: center;
 }
 input{
@@ -134,7 +134,7 @@ input[type="number"]{
     padding: 17px 100px 17px 10px;
 }
 
-.search-form-2{
+.search-form__button{
     text-align: center;
     margin-top: 50px;
 }
